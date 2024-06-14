@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeamPlayerClient", "BeamPlayerClient.csproj", "{9d832d05-b7f8-31c5-d289-24983efd24f8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{ebfb4f45-5716-7e64-a549-b37ba36cd6ae}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{e96cd866-209e-e0ed-13d5-dc10da68a5f7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFXGraph.OutputEventHandlers", "VFXGraph.OutputEventHandlers.csproj", "{85f96e9b-6b85-506a-7f50-4be87d2b959d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beam", "Beam.csproj", "{a4250b0d-48ee-6879-cc6c-aa9ed74e4284}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFXGraph.OutputEventHandlers.Editor", "VFXGraph.OutputEventHandlers.Editor.csproj", "{63ce982a-0ff1-d15f-dc5f-99f90445ff71}"
 EndProject
@@ -14,12 +18,16 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9d832d05-b7f8-31c5-d289-24983efd24f8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9d832d05-b7f8-31c5-d289-24983efd24f8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ebfb4f45-5716-7e64-a549-b37ba36cd6ae}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ebfb4f45-5716-7e64-a549-b37ba36cd6ae}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e96cd866-209e-e0ed-13d5-dc10da68a5f7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e96cd866-209e-e0ed-13d5-dc10da68a5f7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85f96e9b-6b85-506a-7f50-4be87d2b959d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85f96e9b-6b85-506a-7f50-4be87d2b959d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a4250b0d-48ee-6879-cc6c-aa9ed74e4284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a4250b0d-48ee-6879-cc6c-aa9ed74e4284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63ce982a-0ff1-d15f-dc5f-99f90445ff71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{63ce982a-0ff1-d15f-dc5f-99f90445ff71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

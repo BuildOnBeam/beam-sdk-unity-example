@@ -90,8 +90,8 @@
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/GetTransactionsResponsePagination.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/TransferTokenRequestInput.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Api/UsersApi.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/ConvertTokenRequestInput.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/GetUserResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/ConvertTokenRequestInput.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/GetAssetListingsResponseDataInnerPrice.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/GetAssetListingsResponseDataInner.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/Model/CreateAssetOfferRequestInput.cs" />

@@ -16,8 +16,9 @@ namespace HappyHarvest
     /// </summary>
     public class UIHandler : MonoBehaviour
     {
-        public const string BeamEntityId = "entity-id-of-your-user";
-        public const string BeamPublishableApiKey = "your-publishable-api-key";
+        public const string BeamEntityId = "MaciekSelfCustodialShield";
+        // gameplaygalaxy
+        public const string BeamPublishableApiKey = "46Mv6UnpKegFeNfhz13weACbFORnbXyS";
 
         protected static UIHandler s_Instance;
 

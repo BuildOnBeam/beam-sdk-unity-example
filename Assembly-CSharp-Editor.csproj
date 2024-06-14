@@ -311,109 +311,109 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.RPC">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.RPC.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.RPC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Geth">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Geth.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Geth.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Optimism">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Optimism.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Optimism.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.BlockchainProcessing">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Model">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Model.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Model.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Signer">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Signer.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Signer.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe.Core">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Siwe.Core.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Siwe.Core.dll</HintPath>
     </Reference>
     <Reference Include="ADRaffy.ENSNormalize">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/ADRaffy.ENSNormalize.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/ADRaffy.ENSNormalize.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Merkle.Patricia">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Merkle.Patricia.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Merkle.Patricia.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.JsonRpc.RpcClient">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.JsonRpc.RpcClient.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.RLP">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.RLP.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.RLP.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Crypto">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.HdWallet">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.HdWallet.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.HdWallet.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.EVM">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.EVM.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.EVM.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Web3">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Web3.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Web3.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.UI">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.UI.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Metamask">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Metamask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Metamask.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Unity">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Unity.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Hex">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Hex.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Hex.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.JsonRpc.Client">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.JsonRpc.Client.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.JsonRpc.Client.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Accounts">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Accounts.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Accounts.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Unity.Metamask">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Unity.Metamask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Unity.Metamask.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Besu">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Besu.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Besu.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Util">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Util.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Util.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Merkle">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Merkle.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Merkle.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Signer.EIP712">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Signer.EIP712.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Signer.EIP712.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.GnosisSafe">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.GnosisSafe.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.GnosisSafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Siwe.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Siwe.dll</HintPath>
     </Reference>
     <Reference Include="NBitcoin">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/NBitcoin.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/NBitcoin.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.KeyStore">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.KeyStore.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.KeyStore.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Contracts">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.Contracts.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.ABI">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/beam.sdk.client@408e804849/Assets/Nethereum.ABI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.ABI.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -841,9 +841,6 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Beam">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/Beam.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Aseprite.Common">
       <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
     </Reference>
@@ -979,9 +976,17 @@
       <Project>{ebfb4f45-5716-7e64-a549-b37ba36cd6ae}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Beam.csproj">
+      <Project>{a4250b0d-48ee-6879-cc6c-aa9ed74e4284}</Project>
+      <Name>Beam</Name>
+    </ProjectReference>
     <ProjectReference Include="VFXGraph.OutputEventHandlers.csproj">
       <Project>{85f96e9b-6b85-506a-7f50-4be87d2b959d}</Project>
       <Name>VFXGraph.OutputEventHandlers</Name>
+    </ProjectReference>
+    <ProjectReference Include="BeamPlayerClient.csproj">
+      <Project>{9d832d05-b7f8-31c5-d289-24983efd24f8}</Project>
+      <Name>BeamPlayerClient</Name>
     </ProjectReference>
     <ProjectReference Include="VFXGraph.OutputEventHandlers.Editor.csproj">
       <Project>{63ce982a-0ff1-d15f-dc5f-99f90445ff71}</Project>
