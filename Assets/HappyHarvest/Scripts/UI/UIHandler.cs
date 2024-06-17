@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Beam;
 using Beam.Models;
@@ -16,9 +15,9 @@ namespace HappyHarvest
     /// </summary>
     public class UIHandler : MonoBehaviour
     {
-        public const string BeamEntityId = "MaciekSelfCustodialShield";
+        public const string BeamEntityId = "you-entity-id";
         // gameplaygalaxy
-        public const string BeamPublishableApiKey = "46Mv6UnpKegFeNfhz13weACbFORnbXyS";
+        public const string BeamPublishableApiKey = "46M(...)XyS";
 
         protected static UIHandler s_Instance;
 
@@ -159,7 +158,7 @@ namespace HappyHarvest
             }));
         }
 
-        private void SignOperation()
+        private async void SignOperation()
         {
             // show pending status
             SetBeamResult("Pending");
@@ -185,35 +184,52 @@ namespace HappyHarvest
             }));
         }
 
-        private void SignSession()
+        private async void SignSession()
         {
             // show pending status
             SetBeamResult("Pending");
 
-            // start signing as a coroutine to not block UI
-            StartCoroutine(m_BeamClient.CreateSession(
-                BeamEntityId,
-                actionResult =>
-                {
-                    if (actionResult.Status == BeamResultType.Success)
-                    {
-                        print($"Got result: {actionResult.Status} {actionResult.Error}");
-                        SetBeamResult(
-                            $"Session {actionResult.Result.SessionAddress} active until: {actionResult.Result.EndTime:o}");
-                    }
-                    else if (actionResult.Status == BeamResultType.Pending)
-                    {
-                        SetBeamResult("Session is still pending, so action probably timed out");
-                    }
-                    else
-                    {
-                        print($"Failed to get a session! {actionResult.Error}");
-                        SetBeamResult($"Session error: {actionResult.Error}");
-                    }
-                },
-                chainId: 13337, // optional chainId, defaults to 13337
-                secondsTimeout: 240 // timeout in seconds for getting a result of Session signing from the browser
-            ));
+            var actionResult = await m_BeamClient.CreateSessionAsync(BeamEntityId);
+            if (actionResult.Status == BeamResultType.Success)
+            {
+                print($"Got result: {actionResult.Status} {actionResult.Error}");
+                SetBeamResult(
+                    $"Session {actionResult.Result.SessionAddress} active until: {actionResult.Result.EndTime:o}");
+            }
+            else if (actionResult.Status == BeamResultType.Pending)
+            {
+                SetBeamResult("Session is still pending, so action probably timed out");
+            }
+            else
+            {
+                print($"Failed to get a session! {actionResult.Error}");
+                SetBeamResult($"Session error: {actionResult.Error}");
+            }
+
+            //  or do the same using coroutines
+            // StartCoroutine(m_BeamClient.CreateSession(
+            //     BeamEntityId,
+            //     actionResult =>
+            //     {
+            //         if (actionResult.Status == BeamResultType.Success)
+            //         {
+            //             print($"Got result: {actionResult.Status} {actionResult.Error}");
+            //             SetBeamResult(
+            //                 $"Session {actionResult.Result.SessionAddress} active until: {actionResult.Result.EndTime:o}");
+            //         }
+            //         else if (actionResult.Status == BeamResultType.Pending)
+            //         {
+            //             SetBeamResult("Session is still pending, so action probably timed out");
+            //         }
+            //         else
+            //         {
+            //             print($"Failed to get a session! {actionResult.Error}");
+            //             SetBeamResult($"Session error: {actionResult.Error}");
+            //         }
+            //     },
+            //     chainId: 13337, // optional chainId, defaults to 13337
+            //     secondsTimeout: 240 // timeout in seconds for getting a result of Session signing from the browser
+            // ));
         }
 
         void Update()
