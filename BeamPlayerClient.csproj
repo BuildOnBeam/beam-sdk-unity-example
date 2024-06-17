@@ -86,9 +86,9 @@
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CancelAssetOfferRequestInput.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponseUserWallet.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetResponseOwnersInner.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserNativeCurrencyResponseNativeTokenBalance.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CommonOperationResponseTransactionsInnerData.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponseUserEntitiesInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserNativeCurrencyResponseNativeTokenBalance.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/OperationApi.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/ConfirmOperationRequestTransactionsInner.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GenerateLoginRequestInput.cs" />
