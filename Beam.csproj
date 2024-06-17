@@ -45,287 +45,17 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\AssetsApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\AssetsApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\ExchangeApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\ExchangeApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\HealthApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\HealthApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\MarketplaceApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\MarketplaceApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\OperationApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\OperationApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\SessionsApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\SessionsApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\TransactionsApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\TransactionsApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Api\UsersApi.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Api\UsersApi.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ApiClient.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ApiClient.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ApiException.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ApiException.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ApiResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ApiResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ClientUtils.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ClientUtils.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\Configuration.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\Configuration.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ConnectionException.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ConnectionException.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ExceptionFactory.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ExceptionFactory.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\GlobalConfiguration.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\GlobalConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\IApiAccessor.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\IApiAccessor.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\IAsynchronousClient.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\IAsynchronousClient.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\IReadableConfiguration.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\IReadableConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\ISynchronousClient.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\ISynchronousClient.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\Multimap.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\Multimap.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\OpenAPIDateConverter.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\OpenAPIDateConverter.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\RequestOptions.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\RequestOptions.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\UnexpectedResponseException.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\UnexpectedResponseException.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Client\WebRequestPathBuilder.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Client\WebRequestPathBuilder.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\AbstractOpenAPISchema.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\AbstractOpenAPISchema.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\AcceptAssetOfferRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\AcceptAssetOfferRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\BuyAssetRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\BuyAssetRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CancelAssetListingRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CancelAssetListingRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CancelAssetOfferRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CancelAssetOfferRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\Check200Response.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\Check200Response.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\Check200ResponseInfoValue.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\Check200ResponseInfoValue.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\Check503Response.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\Check503Response.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CommonOperationResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CommonOperationResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CommonOperationResponseTransactionsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CommonOperationResponseTransactionsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CommonOperationResponseTransactionsInnerData.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CommonOperationResponseTransactionsInnerData.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\ConfirmOperationRequest.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\ConfirmOperationRequest.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\ConfirmOperationRequestTransactionsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\ConfirmOperationRequestTransactionsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\ConvertTokenRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\ConvertTokenRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CreateAssetOfferRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CreateAssetOfferRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CreateOperationRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CreateOperationRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CreateTransactionRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CreateTransactionRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\CreateTransactionRequestInputInteractionsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\CreateTransactionRequestInputInteractionsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GenerateSessionRequestResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GenerateSessionRequestResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GenerateSessionUrlRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GenerateSessionUrlRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetActiveSessionResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetActiveSessionResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAllUsersResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAllUsersResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAllUsersResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAllUsersResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAllUsersResponseDataInnerWalletsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAllUsersResponseDataInnerWalletsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetListingsResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetListingsResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetListingsResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetListingsResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetListingsResponseDataInnerPrice.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetListingsResponseDataInnerPrice.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetListingsResponseDataInnerPriceAmount.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetListingsResponseDataInnerPriceAmount.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetListingsResponseDataInnerPriceCurrency.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetListingsResponseDataInnerPriceCurrency.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetResponseOwnersInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetResponseOwnersInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForContractBodyInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForContractBodyInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForContractBodyInputAttributesInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForContractBodyInputAttributesInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForContractResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForContractResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForContractResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForContractResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForUserBodyInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForUserBodyInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForUserResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForUserResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForUserResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForUserResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetAssetsForUserResponseDataInnerAttributesInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetAssetsForUserResponseDataInnerAttributesInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetChainCurrenciesResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetChainCurrenciesResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetChainCurrenciesResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetChainCurrenciesResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetListedAssetsBodyInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetListedAssetsBodyInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetQuoteResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetQuoteResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetSessionRequestResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetSessionRequestResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionResponsePolicy.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionResponsePolicy.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionResponseUser.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionResponseUser.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionResponseUserWallet.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionResponseUserWallet.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponseDataInnerIntent.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponseDataInnerIntent.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponseDataInnerIntentInteractionsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponseDataInnerIntentInteractionsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponseDataInnerTransaction.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponseDataInnerTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponseDataInnerTransactionLogsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponseDataInnerTransactionLogsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetTransactionsResponsePagination.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetTransactionsResponsePagination.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetUserCurrenciesResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetUserCurrenciesResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetUserCurrenciesResponseDataInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetUserCurrenciesResponseDataInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetUserNativeCurrencyResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetUserNativeCurrencyResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetUserNativeCurrencyResponseNativeTokenBalance.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetUserNativeCurrencyResponseNativeTokenBalance.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\GetUserResponse.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\GetUserResponse.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\SellAssetRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\SellAssetRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\TransferAssetRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\TransferAssetRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\TransferAssetRequestInputAssetsInner.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\TransferAssetRequestInputAssetsInner.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\TransferNativeTokenRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\TransferNativeTokenRequestInput.cs</Link>
-    </Compile>
-    <Compile Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\Model\TransferTokenRequestInput.cs">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\Model\TransferTokenRequestInput.cs</Link>
-    </Compile>
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamApiError.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperationTransaction.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamResult.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamEnvironment.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperationConfirmation.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamCoroutineApi.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperation.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Extensions/ByteExtensions.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamGame.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamHttpResult.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Storage/IStorage.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamApi.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Extensions/BeamSessionExtensions.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamSession.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperationStatus.cs" />
@@ -334,9 +64,6 @@
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/BeamClient.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Util/KeyPair.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Constants.cs" />
-    <None Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\BeamPlayerClient\BeamPlayerClient.asmdef">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Generated\BeamPlayerClient\BeamPlayerClient.asmdef</Link>
-    </None>
     <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/package.json" />
     <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Beam.asmdef" />
     <Reference Include="UnityEngine">
@@ -1101,14 +828,6 @@
       <Project>{9d832d05-b7f8-31c5-d289-24983efd24f8}</Project>
       <Name>BeamPlayerClient</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\Coroutines\">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Coroutines</Link>
-    </Folder>
-    <Folder Include="..\Unity\Beam.SDK.Client\Runtime\Beam\Api\Generated\">
-      <Link>Beam.SDK.Client\Runtime\Beam\Api\Async</Link>
-    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
