@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "beam.sdk.client": "file:/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client",
+    "beam.sdk.client": "https://github.com/Merit-Circle/beam-sdk-unity.git",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.feature.2d": "2.0.0",
     "com.unity.ide.rider": "3.0.28",

@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "beam.sdk.client": {
-      "version": "file:/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client",
+      "version": "https://github.com/Merit-Circle/beam-sdk-unity.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
-      }
+      },
+      "hash": "c2491c6e91e0ecf7a19a5e9f8a26d2957b59e96e"
     },
     "com.unity.2d.animation": {
       "version": "9.1.0",
