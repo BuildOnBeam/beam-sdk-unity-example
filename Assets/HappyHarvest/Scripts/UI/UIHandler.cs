@@ -106,10 +106,11 @@ namespace HappyHarvest
             // operation id text field to input Beam API generated operationIds
             m_BeamOperationIdTextField = m_BeamPopup.Q<TextField>("OperationIdTextField");
             m_BeamResultLabel = m_BeamPopup.Q<Label>("BeamResultLabel");
-            
+
             // initialize Beam Client
             m_BeamClient = gameObject.AddComponent<BeamClient>()
                 .SetBeamApiKey(BeamPublishableApiKey)
+                .SetDebugLogging(true)
                 .SetEnvironment(BeamEnvironment.Testnet);
 
             m_MarketPopup = m_Document.rootVisualElement.Q<VisualElement>("MarketPopup");
@@ -163,24 +164,21 @@ namespace HappyHarvest
             SetBeamResult("Pending");
 
             var operationId = s_Instance.m_BeamOperationIdTextField.value;
-
-            // start signing as a coroutine to not block UI
-            StartCoroutine(m_BeamClient.SignOperation(BeamEntityId, operationId, actionResult =>
+            
+            var actionResult = await m_BeamClient.SignOperationAsync(BeamEntityId, operationId);
+            print($"Got result: {actionResult.Status} {actionResult.Error}");
+            if (actionResult.Status == BeamResultType.Success)
             {
-                print($"Got result: {actionResult.Status} {actionResult.Error}");
-                if (actionResult.Status == BeamResultType.Success)
-                {
-                    SetBeamResult($"{operationId} result: {actionResult.Result.ToString()}");
-                }
-                else if (actionResult.Status == BeamResultType.Pending)
-                {
-                    SetBeamResult($"{operationId} is still pending, so action probably timed out");
-                }
-                else
-                {
-                    SetBeamResult($"{operationId} error: {actionResult.Error}");
-                }
-            }));
+                SetBeamResult($"{operationId} result: {actionResult.Result.ToString()}");
+            }
+            else if (actionResult.Status == BeamResultType.Pending)
+            {
+                SetBeamResult($"{operationId} is still pending, so action probably timed out");
+            }
+            else
+            {
+                SetBeamResult($"{operationId} error: {actionResult.Error}");
+            }
         }
 
         private async void SignSession()
@@ -204,31 +202,6 @@ namespace HappyHarvest
                 print($"Failed to get a session! {actionResult.Error}");
                 SetBeamResult($"Session error: {actionResult.Error}");
             }
-
-            //  or do the same using coroutines
-            // StartCoroutine(m_BeamClient.CreateSession(
-            //     BeamEntityId,
-            //     actionResult =>
-            //     {
-            //         if (actionResult.Status == BeamResultType.Success)
-            //         {
-            //             print($"Got result: {actionResult.Status} {actionResult.Error}");
-            //             SetBeamResult(
-            //                 $"Session {actionResult.Result.SessionAddress} active until: {actionResult.Result.EndTime:o}");
-            //         }
-            //         else if (actionResult.Status == BeamResultType.Pending)
-            //         {
-            //             SetBeamResult("Session is still pending, so action probably timed out");
-            //         }
-            //         else
-            //         {
-            //             print($"Failed to get a session! {actionResult.Error}");
-            //             SetBeamResult($"Session error: {actionResult.Error}");
-            //         }
-            //     },
-            //     chainId: 13337, // optional chainId, defaults to 13337
-            //     secondsTimeout: 240 // timeout in seconds for getting a result of Session signing from the browser
-            // ));
         }
 
         void Update()

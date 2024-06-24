@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a4250b0d-48ee-6879-cc6c-aa9ed74e4284}</ProjectGuid>
+    <ProjectGuid>{860becc2-16dc-0522-ca25-ea0a7d6c7765}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,27 +45,129 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamApiError.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperationTransaction.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/AbstractOpenAPISchema.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/IApiAccessor.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CancelAssetListingRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserCurrenciesResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAllUsersResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetListingsResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/BuyAssetRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/TransferAssetRequestInputAssetsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CommonOperationResponseTransactionsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/ConnectorApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetListingsResponseDataInnerPriceCurrency.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/OperationSigningBy.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionRequestResponse.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamResult.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponseDataInnerIntentInteractionsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponsePagination.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForUserBodyInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetListingsResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/MarketplaceApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionTransactionInputInteractionsInner.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamEnvironment.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperationConfirmation.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamCoroutineApi.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperation.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CreateOperationRequestInputTransactionsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/IReadableConfiguration.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetActiveSessionsResponseSessionsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/Check200ResponseInfoValue.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForUserResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetSessionRequestResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetListingsResponseDataInnerPriceAmount.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/IAsynchronousClient.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/UnexpectedResponseException.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Extensions/ByteExtensions.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamGame.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamHttpResult.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponsePolicy.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GenerateConnectionRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/TransferTokenRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetActiveSessionResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForContractResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/Check200Response.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/UsersApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/RevokeSessionRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/TransferAssetRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ExceptionFactory.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionVerifyRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ConnectionException.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponseUser.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/ConfirmOperationRequest.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/TransactionsApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/TransferNativeTokenRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GenerateConnectionRequestResponse.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Storage/IStorage.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CancelAssetOfferRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponseUserWallet.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetResponseOwnersInner.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Extensions/BeamSessionExtensions.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponseUserEntitiesInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserNativeCurrencyResponseNativeTokenBalance.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CommonOperationResponseTransactionsInnerData.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/OperationApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/ConfirmOperationRequestTransactionsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetChainCurrenciesResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetQuoteResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAllUsersResponseDataInnerWalletsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ApiException.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForUserResponseDataInnerAttributesInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ClientUtils.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GenerateSessionUrlRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/GlobalConfiguration.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionTransactionInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionCreateOperationInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponseDataInnerIntent.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForContractResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/Check503Response.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/ExchangeApi.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamSession.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamOperationStatus.cs" />
-    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Models/BeamSessionRequest.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForUserResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CreateTransactionRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/HealthApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetChainCurrenciesResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetActiveSessionsResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetConnectionRequestResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ISynchronousClient.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/WebRequestPathBuilder.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CreateOperationRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetListingsResponseDataInnerPrice.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/RequestOptions.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/OpenAPIDateConverter.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/Multimap.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/SellAssetRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionRevokeSessionInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CreateAssetOfferRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/Configuration.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ApiResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/ConvertTokenRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAllUsersResponse.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Storage/PlayerPrefsStorage.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/BeamClient.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionVerifyRequestResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CreateTransactionRequestInputInteractionsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GenerateSessionRequestResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/AcceptAssetOfferRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Client/ApiClient.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForContractBodyInputAttributesInner.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Util/KeyPair.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponseDataInnerTransaction.cs" />
     <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Constants.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserNativeCurrencyResponse.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetUserCurrenciesResponseDataInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/SessionsApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Api/AssetsApi.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetAssetsForContractBodyInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetListedAssetsBodyInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/WebConnectionRequestInput.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/GetTransactionsResponseDataInnerTransactionLogsInner.cs" />
+    <Compile Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Runtime/Beam/Api/BeamPlayerClient/src/BeamPlayerClient/Model/CommonOperationResponse.cs" />
     <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/package.json" />
+    <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Packages/manifest.json" />
+    <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/ProjectSettings/ProjectVersion.txt" />
     <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Beam.asmdef" />
+    <None Include="/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Packages/packages-lock.json" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -343,7 +445,7 @@
       <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Model">
       <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Model.dll</HintPath>
@@ -367,7 +469,7 @@
       <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.RLP.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Crypto">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.openfort.sdk@a9c08ff5f0/Assets/BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.HdWallet">
       <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.HdWallet.dll</HintPath>
@@ -415,7 +517,7 @@
       <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.GnosisSafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe">
       <HintPath>/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client/Assets/Nethereum.Siwe.dll</HintPath>
@@ -816,18 +918,17 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="UniTask">
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="BeamPlayerClient.csproj">
-      <Project>{9d832d05-b7f8-31c5-d289-24983efd24f8}</Project>
-      <Name>BeamPlayerClient</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

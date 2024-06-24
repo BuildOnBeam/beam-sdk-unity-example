@@ -5,9 +5,17 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.4"
       },
-      "hash": "c2491c6e91e0ecf7a19a5e9f8a26d2957b59e96e"
+      "hash": "24c27e0dde0babc67f7e105dd1178f4ee0632f76"
+    },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.4",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d057074f177b078e29f10dd511b54df48a8806ea"
     },
     "com.unity.2d.animation": {
       "version": "9.1.0",

@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{63ce982a-0ff1-d15f-dc5f-99f90445ff71}</ProjectGuid>
+    <ProjectGuid>{d461b192-4652-b6ef-b3ee-849b7dd28caf}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -317,7 +317,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -713,27 +713,27 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/maciejlewinski/Documents/HappyHarvest/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VFXGraph.OutputEventHandlers.csproj">
-      <Project>{85f96e9b-6b85-506a-7f50-4be87d2b959d}</Project>
+      <Project>{eb13e77c-ac57-3a3d-ef25-9713bee7dd8f}</Project>
       <Name>VFXGraph.OutputEventHandlers</Name>
     </ProjectReference>
   </ItemGroup>

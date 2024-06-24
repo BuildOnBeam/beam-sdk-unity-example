@@ -141,7 +141,8 @@ namespace HappyHarvest
             else
             {
 #endif
-                GameManager.Instance.DayCycleHandler.m_Shadows.Add(shadow);
+                if (GameManager.Instance.DayCycleHandler != null)
+                    GameManager.Instance.DayCycleHandler.m_Shadows.Add(shadow);
 #if UNITY_EDITOR
             }
 #endif
