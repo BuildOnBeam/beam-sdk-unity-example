@@ -33,5 +33,5 @@ You can see code that handles this in [uIHandler.cs](https://github.com/Merit-Ci
 
 ## Signing operations
 When performing an on-chain action in Beam Player API, you receive an Operation object in return. In order to actually perform the operation, you need to give us the Operation Id. We will either use existing, active session or open a browser for user to sign the operation.
-Operation can consist of multiple on-chain transactions that need signing. We will handle all of that for you. You can see en example of that in [UIHandkler.cs](https://github.com/Merit-Circle/beam-sdk-unity-example/blob/main/Assets/HappyHarvest/Scripts/UI/UIHandler.cs#L161)
+Operation can consist of multiple on-chain transactions that need signing. We will handle all of that for you. You can see en example of that in [UIHandler.cs](https://github.com/Merit-Circle/beam-sdk-unity-example/blob/main/Assets/HappyHarvest/Scripts/UI/UIHandler.cs#L161)
 
