@@ -377,109 +377,109 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.RPC">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.RPC.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.RPC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Geth">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Geth.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Geth.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Optimism">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Optimism.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Optimism.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.BlockchainProcessing">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Model">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Model.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Model.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Signer">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Signer.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Signer.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe.Core">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Siwe.Core.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Siwe.Core.dll</HintPath>
     </Reference>
     <Reference Include="ADRaffy.ENSNormalize">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/ADRaffy.ENSNormalize.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/ADRaffy.ENSNormalize.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Merkle.Patricia">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Merkle.Patricia.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Merkle.Patricia.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.JsonRpc.RpcClient">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.JsonRpc.RpcClient.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.RLP">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.RLP.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.RLP.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Crypto">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.HdWallet">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.HdWallet.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.HdWallet.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.EVM">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.EVM.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.EVM.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Web3">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Web3.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Web3.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.UI.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Metamask">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Metamask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Metamask.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Unity">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Unity.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Hex">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Hex.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Hex.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.JsonRpc.Client">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.JsonRpc.Client.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.JsonRpc.Client.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Accounts">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Accounts.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Accounts.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Unity.Metamask">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Unity.Metamask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Unity.Metamask.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Besu">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Besu.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Besu.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Util">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Util.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Util.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Merkle">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Merkle.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Merkle.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Signer.EIP712">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Signer.EIP712.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Signer.EIP712.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.GnosisSafe">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.GnosisSafe.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.GnosisSafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Siwe.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Siwe.dll</HintPath>
     </Reference>
     <Reference Include="NBitcoin">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/NBitcoin.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/NBitcoin.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.KeyStore">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.KeyStore.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.KeyStore.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Contracts">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Contracts.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.ABI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.ABI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.ABI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -866,175 +866,175 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Beam">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Beam.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Beam.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.TextMeshPro">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.DOTween">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.DOTween.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.Addressables">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.Addressables.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.Linq">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.Linq.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UniTask">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UniTask.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

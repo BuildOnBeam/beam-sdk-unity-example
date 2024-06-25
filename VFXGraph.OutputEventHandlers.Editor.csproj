@@ -317,7 +317,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -713,22 +713,22 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

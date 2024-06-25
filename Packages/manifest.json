@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "beam.sdk.client": "https://github.com/Merit-Circle/beam-sdk-unity.git#feat/session-revoking",
+    "beam.sdk.client": "https://github.com/Merit-Circle/beam-sdk-unity.git",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.4",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.feature.2d": "2.0.0",

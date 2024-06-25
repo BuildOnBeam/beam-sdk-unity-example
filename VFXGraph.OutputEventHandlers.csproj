@@ -701,16 +701,16 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/maciejlewinski/Documents/TEST/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
