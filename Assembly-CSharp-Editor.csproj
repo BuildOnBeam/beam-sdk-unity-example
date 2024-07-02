@@ -311,109 +311,109 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.RPC">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.RPC.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.RPC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Geth">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Geth.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Geth.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Optimism">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Optimism.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Optimism.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.BlockchainProcessing">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.BlockchainProcessing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Model">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Model.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Model.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Signer">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Signer.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Signer.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe.Core">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Siwe.Core.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Siwe.Core.dll</HintPath>
     </Reference>
     <Reference Include="ADRaffy.ENSNormalize">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/ADRaffy.ENSNormalize.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/ADRaffy.ENSNormalize.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Merkle.Patricia">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Merkle.Patricia.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Merkle.Patricia.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.JsonRpc.RpcClient">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.JsonRpc.RpcClient.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.RLP">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.RLP.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.RLP.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Crypto">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.HdWallet">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.HdWallet.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.HdWallet.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.EVM">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.EVM.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.EVM.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Web3">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Web3.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Web3.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.UI">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.UI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.UI.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Metamask">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Metamask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Metamask.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Unity">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Unity.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Hex">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Hex.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Hex.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.JsonRpc.Client">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.JsonRpc.Client.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.JsonRpc.Client.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Accounts">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Accounts.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Accounts.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Unity.Metamask">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Unity.Metamask.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Unity.Metamask.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Besu">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Besu.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Besu.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Util">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Util.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Util.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Merkle">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Merkle.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Merkle.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Signer.EIP712">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Signer.EIP712.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Signer.EIP712.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.GnosisSafe">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.GnosisSafe.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.GnosisSafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Siwe">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Siwe.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Siwe.dll</HintPath>
     </Reference>
     <Reference Include="NBitcoin">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/NBitcoin.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/NBitcoin.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.KeyStore">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.KeyStore.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.KeyStore.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.Contracts">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.Contracts.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="Nethereum.ABI">
-      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@24c27e0dde/Assets/Nethereum.ABI.dll</HintPath>
+      <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/beam.sdk.client@5e1ae8f76d/Assets/Nethereum.ABI.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/maciejlewinski/Documents/Unity/beam-sdk-unity-example/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
