@@ -50,6 +50,10 @@ public class BeamUI : MonoBehaviour
         operationIdInput = rootElement.Q<TextField>("OperationIdInput");
         responsesInput = rootElement.Q<TextField>("ResponsesInput");
 
+        responsesInput.multiline = true;
+        responsesInput.SetVerticalScrollerVisibility(ScrollerVisibility.Auto);
+        responsesInput.style.whiteSpace = WhiteSpace.Normal;
+
         // Attach listeners
         createSessionButton.clicked += async () => await OnCreateSessionClicked();
         revokeSessionButton.clicked += async () => await OnRevokeSessionClicked();
