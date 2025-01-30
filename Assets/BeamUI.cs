@@ -1,5 +1,7 @@
+using System.Linq;
 using Beam;
 using Beam.Models;
+using BeamPlayerClient.Model;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Cysharp.Threading.Tasks; // For async/await using UniTask
@@ -14,6 +16,7 @@ public class BeamUI : MonoBehaviour
     private VisualElement rootElement;
 
     // References to UI elements
+    private Button connectToGameButton;
     private Button createSessionButton;
     private Button revokeSessionButton;
     private Button signOperationButton;
@@ -41,6 +44,7 @@ public class BeamUI : MonoBehaviour
         rootElement = uiDocument.rootVisualElement;
 
         // Initialize UI elements
+        connectToGameButton = rootElement.Q<Button>("ConnectToGameButton");
         createSessionButton = rootElement.Q<Button>("CreateSessionButton");
         revokeSessionButton = rootElement.Q<Button>("RevokeSessionButton");
         signOperationButton = rootElement.Q<Button>("SignOperationButton");
@@ -55,6 +59,7 @@ public class BeamUI : MonoBehaviour
         responsesInput.style.whiteSpace = WhiteSpace.Normal;
 
         // Attach listeners
+        connectToGameButton.clicked += async () => await OnConnectToGameClicked();
         createSessionButton.clicked += async () => await OnCreateSessionClicked();
         revokeSessionButton.clicked += async () => await OnRevokeSessionClicked();
         signOperationButton.clicked += async () => await OnSignOperationClicked();
@@ -64,6 +69,7 @@ public class BeamUI : MonoBehaviour
     private void OnDisable()
     {
         // Detach listeners
+        connectToGameButton.clicked -= async () => await OnConnectToGameClicked();
         createSessionButton.clicked -= async () => await OnCreateSessionClicked();
         revokeSessionButton.clicked -= async () => await OnRevokeSessionClicked();
         signOperationButton.clicked -= async () => await OnSignOperationClicked();
@@ -71,6 +77,22 @@ public class BeamUI : MonoBehaviour
     }
 
     // Async actions for button clicks
+    private async UniTask OnConnectToGameClicked()
+    {
+        AppendToResponseInput("Connect to game button clicked.", true);
+        var entityId = GetEntityIdInputValue();
+
+        var result = await beamClient.ConnectUserToGameAsync(entityId);
+        if (result.Status == BeamResultType.Success)
+        {
+            AppendToResponseInput(
+                $"User connected to the game with entityId: {entityId}.");
+
+            var user = await beamClient.UsersApi.GetUserAsync(entityId);
+            AppendToResponseInput($"User's wallet address: {user.Wallets.First(w => w.ChainId == 13337)?.Address}");
+        }
+    }
+    
     private async UniTask OnCreateSessionClicked()
     {
         AppendToResponseInput("Create Session button clicked.", true);

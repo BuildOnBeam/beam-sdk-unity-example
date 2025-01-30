@@ -6,14 +6,15 @@
         </ui:VisualElement>
         <ui:VisualElement name="TopPanel" style="flex-grow: 1; height: auto; width: 100%; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; align-items: auto; justify-content: flex-start;">
             <ui:VisualElement name="TopLeftPanel" style="flex-grow: 1; width: auto; height: auto; position: relative; align-self: flex-start; align-items: center; justify-content: flex-start;">
+                <ui:Button text="Connect to game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ConnectToGameButton" />
                 <ui:Button text="Create Session" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateSessionButton" />
                 <ui:Button text="Revoke Session" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RevokeSessionButton" />
                 <ui:Button text="Sign Operation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SignOperationButton" />
                 <ui:Button text="Check Health" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CheckHealthButton" />
             </ui:VisualElement>
             <ui:VisualElement name="TopRightPanel" style="width: auto; align-items: auto; align-self: flex-end; position: absolute; right: 5px; top: 5px;">
-                <ui:TextField picking-mode="Ignore" label="Entity Id" name="EntityIdInput" class="beam-input-small" />
-                <ui:TextField picking-mode="Ignore" label="Operation Id" name="OperationIdInput" class="beam-input-small" />
+                <ui:TextField picking-mode="Ignore" label="Entity Id" name="EntityIdInput" class="beam-input-small" style="width: 300px;" />
+                <ui:TextField picking-mode="Ignore" label="Operation Id" name="OperationIdInput" class="beam-input-small" style="width: 300px;" />
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="BottomPanel" style="flex-grow: 1; height: auto; width: 100%; position: relative; justify-content: flex-start; padding-top: 5px; padding-right: 5px; padding-bottom: 0; padding-left: 5px; min-height: 100px;">
