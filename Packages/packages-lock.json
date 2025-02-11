@@ -1,13 +1,14 @@
 {
   "dependencies": {
     "beam.sdk.client": {
-      "version": "file:/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client",
+      "version": "https://github.com/BuildOnBeam/beam-sdk-unity.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.4"
-      }
+      },
+      "hash": "de893e7ba3bc1c02c3c16db094eb71068027f9ae"
     },
     "com.cysharp.unitask": {
       "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",

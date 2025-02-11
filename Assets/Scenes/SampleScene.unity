@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16db4556bb2a496caf382f0923ae12d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BEAM_API_KEY: 2xK(...)5Wc
+  BEAM_API_KEY: yourApiKey
 --- !u!114 &708354633
 MonoBehaviour:
   m_ObjectHideFlags: 0
