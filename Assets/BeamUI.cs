@@ -1,15 +1,15 @@
 using System.Linq;
 using Beam;
 using Beam.Models;
-using BeamPlayerClient.Model;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Cysharp.Threading.Tasks; // For async/await using UniTask
+using Cysharp.Threading.Tasks;
 
 public class BeamUI : MonoBehaviour
 {
     // set your Publishable(!) API key
     [SerializeField] private string BEAM_API_KEY;
+    [SerializeField] private bool USE_WEB_VIEW;
 
     private BeamClient beamClient;
 
@@ -25,6 +25,8 @@ public class BeamUI : MonoBehaviour
     private TextField entityIdInput;
     private TextField operationIdInput;
     private TextField responsesInput;
+
+    private WebViewObject m_webViewObject;
 
     private void OnEnable()
     {
@@ -64,6 +66,14 @@ public class BeamUI : MonoBehaviour
         revokeSessionButton.clicked += async () => await OnRevokeSessionClicked();
         signOperationButton.clicked += async () => await OnSignOperationClicked();
         checkHealthButton.clicked += async () => await OnCheckHealthClicked();
+
+        if (USE_WEB_VIEW)
+        {
+            beamClient.SetUrlOpener(url =>
+            {
+                InitWebview(url);
+            });
+        }
     }
 
     private void OnDisable()
@@ -83,6 +93,7 @@ public class BeamUI : MonoBehaviour
         var entityId = GetEntityIdInputValue();
 
         var result = await beamClient.ConnectUserToGameAsync(entityId);
+        DisposeOfWebView();
         if (result.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -92,13 +103,14 @@ public class BeamUI : MonoBehaviour
             AppendToResponseInput($"User's wallet address: {user.Wallets.First(w => w.ChainId == 13337)?.Address}");
         }
     }
-    
+
     private async UniTask OnCreateSessionClicked()
     {
         AppendToResponseInput("Create Session button clicked.", true);
         var entityId = GetEntityIdInputValue();
 
         var existingSession = await beamClient.GetActiveSessionAsync(entityId);
+        DisposeOfWebView();
         if (existingSession.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -130,6 +142,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var revokeResult = await beamClient.RevokeSessionAsync(entityId, existingSession.Result.SessionAddress);
+        DisposeOfWebView();
         if (revokeResult.Status == BeamResultType.Success)
         {
             AppendToResponseInput("Session revoked.");
@@ -152,6 +165,7 @@ public class BeamUI : MonoBehaviour
 
         var entityId = GetEntityIdInputValue();
         var signingResult = await beamClient.SignOperationAsync(entityId, operationId);
+        DisposeOfWebView();
         if (signingResult.Status == BeamResultType.Success)
         {
             AppendToResponseInput($"Operation signed: {signingResult.Result}.");
@@ -192,5 +206,25 @@ public class BeamUI : MonoBehaviour
 
         responsesInput.value += text + "\n";
         responsesInput.MarkDirtyRepaint(); // Refresh UI to reflect changes
+    }
+
+    private void InitWebview(string url)
+    {
+        m_webViewObject = new GameObject("WebViewObject").AddComponent<WebViewObject>();
+        m_webViewObject.canvas = GameObject.Find("Canvas");
+
+        m_webViewObject.Init();
+        m_webViewObject.LoadURL(url);
+        m_webViewObject.SetVisibility(true);
+    }
+
+    private void DisposeOfWebView()
+    {
+        if (USE_WEB_VIEW)
+        {
+            m_webViewObject.SetVisibility(false);
+            m_webViewObject.Pause();
+            m_webViewObject = null;
+        }
     }
 }
