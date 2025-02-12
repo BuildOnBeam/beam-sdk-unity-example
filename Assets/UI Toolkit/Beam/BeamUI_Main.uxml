@@ -18,7 +18,7 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="BottomPanel" style="flex-grow: 1; height: auto; width: 100%; position: relative; justify-content: flex-start; padding-top: 5px; padding-right: 5px; padding-bottom: 0; padding-left: 5px; min-height: 100px;">
-            <ui:TextField picking-mode="Ignore" name="ResponsesInput" readonly="true" multiline="true" class="responses-input" style="height: 100%; max-height: 300px;" />
+            <ui:TextField picking-mode="Ignore" name="ResponsesInput" readonly="true" multiline="false" class="responses-input" style="height: 100%; max-height: 300px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

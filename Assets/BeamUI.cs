@@ -57,7 +57,7 @@ public class BeamUI : MonoBehaviour
         responsesInput = rootElement.Q<TextField>("ResponsesInput");
 
         responsesInput.multiline = true;
-        responsesInput.SetVerticalScrollerVisibility(ScrollerVisibility.Auto);
+        responsesInput.verticalScrollerVisibility = ScrollerVisibility.Auto;
         responsesInput.style.whiteSpace = WhiteSpace.Normal;
 
         // Attach listeners
@@ -73,7 +73,7 @@ public class BeamUI : MonoBehaviour
             m_webViewObject.canvas = GameObject.Find("Canvas");
 
             // if true, WebView will open in new window and allow Inspecting
-            var separated = true;
+            var separated = false;
 
             // Source: https://github.com/gree/unity-webview/blob/master/sample/Assets/Scripts/SampleWebView.cs
             m_webViewObject.Init(separated: separated, cb: (msg) =>
@@ -103,6 +103,10 @@ public class BeamUI : MonoBehaviour
             ld: (msg) =>
             {
                 Debug.Log(string.Format("CallOnLoaded[{0}]", msg));
+
+                m_webViewObject.SetMargins(0, 0, 0, 0);   
+                m_webViewObject.SetVisibility(true);
+
 #if UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX || UNITY_IOS
                 // NOTE: the following js definition is required only for UIWebView; if
                 // enabledWKWebView is true and runtime has WKWebView, Unity.call is defined
@@ -147,6 +151,7 @@ public class BeamUI : MonoBehaviour
 #endif
                 m_webViewObject.EvaluateJS(js + @"Unity.call('ua=' + navigator.userAgent)");
             });
+
             m_webViewObject.SetMargins(0, 0, 0, Screen.height);   
             m_webViewObject.SetVisibility(true);
 
@@ -188,7 +193,6 @@ public class BeamUI : MonoBehaviour
         var entityId = GetEntityIdInputValue();
 
         var existingSession = await beamClient.GetActiveSessionAsync(entityId);
-        DisposeOfWebView();
         if (existingSession.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -197,6 +201,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var newSession = await beamClient.CreateSessionAsync(entityId);
+        DisposeOfWebView();
         if (newSession.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -291,6 +296,7 @@ public class BeamUI : MonoBehaviour
         // separated for now to be able to see console/network requests
         m_webViewObject.LoadURL(url);
         m_webViewObject.SetMargins(0, 0, 0, 0);   
+        m_webViewObject.SetVisibility(true);
     }
 
     private void DisposeOfWebView()
@@ -298,6 +304,7 @@ public class BeamUI : MonoBehaviour
         if (USE_WEB_VIEW)
         {
             m_webViewObject.SetMargins(0, 0, 0, Screen.height);   
+            m_webViewObject.SetVisibility(false);
         }
     }
 }
