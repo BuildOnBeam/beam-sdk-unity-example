@@ -69,10 +69,10 @@ public class BeamUI : MonoBehaviour
 
         if (USE_WEB_VIEW)
         {
-            beamClient.SetUrlOpener(url =>
-            {
-                InitWebview(url);
-            });
+            m_webViewObject = new GameObject("WebViewObject").AddComponent<WebViewObject>();
+            m_webViewObject.canvas = GameObject.Find("Canvas");
+
+            beamClient.SetUrlOpener(url => { InitWebview(url); });
         }
     }
 
@@ -210,12 +210,17 @@ public class BeamUI : MonoBehaviour
 
     private void InitWebview(string url)
     {
-        m_webViewObject = new GameObject("WebViewObject").AddComponent<WebViewObject>();
-        m_webViewObject.canvas = GameObject.Find("Canvas");
-
-        m_webViewObject.Init();
+        // separated for now to be able to see console/network requests
+        m_webViewObject.Init(separated: true,
+            cb: (msg) => { Debug.Log(@"Message from WebView : " + msg); },
+            err: (msg) => { Debug.Log(string.Format("CallOnError[{0}]", msg)); },
+            ld: (msg) =>
+            {
+                Debug.Log(string.Format("CallOnLoaded[{0}]", msg));
+                m_webViewObject.EvaluateJS(@"window.__isUnity = true;");
+                m_webViewObject.SetVisibility(true);
+            });
         m_webViewObject.LoadURL(url);
-        m_webViewObject.SetVisibility(true);
     }
 
     private void DisposeOfWebView()
@@ -224,7 +229,6 @@ public class BeamUI : MonoBehaviour
         {
             m_webViewObject.SetVisibility(false);
             m_webViewObject.Pause();
-            m_webViewObject = null;
         }
     }
 }
