@@ -18,3 +18,11 @@ Entire Beam SDK usage can be seen in [Assets/BeamUI.cs](Assets/BeamUI.cs) which 
 ## Beam Unity SDK
 You can find more info on Beam Unity SDK here:
 [Beam SDK Unity](https://github.com/BuildOnBeam/beam-sdk-unity)
+
+### Custom WebView
+We have introduced an example of how you can use custom WebView plugin to use with Beam SDK.
+In our case we used [gree/unity-webview](https://github.com/gree/unity-webview) which has its quirks and will not work on Windows. You can use any solution you want, all you really have to do it override URL Opener like this: 
+```csharp
+beamClient.SetUrlOpener(url => { InitWebview(url); });
+```
+To enable or disable WebView you can use the boolean `USE_WEB_VIEW` on Beam UI Script within UIDocument.
