@@ -4,6 +4,7 @@ using Beam.Models;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Cysharp.Threading.Tasks;
+using Plugins.ios;
 
 public class BeamUI : MonoBehaviour
 {
@@ -26,14 +27,17 @@ public class BeamUI : MonoBehaviour
     private TextField operationIdInput;
     private TextField responsesInput;
 
-    private WebViewObject m_webViewObject;
-
     private void OnEnable()
     {
         beamClient = gameObject.AddComponent<BeamClient>()
             .SetBeamApiKey(BEAM_API_KEY)
             .SetEnvironment(BeamEnvironment.Testnet)
             .SetDebugLogging(true);
+
+        if (USE_WEB_VIEW)
+        {
+            beamClient.SetUrlOpener(url => OpenWebView(url));
+        }
 
         // Clone and attach the UXML template
         var uiDocument = GetComponent<UIDocument>();
@@ -57,7 +61,7 @@ public class BeamUI : MonoBehaviour
         responsesInput = rootElement.Q<TextField>("ResponsesInput");
 
         responsesInput.multiline = true;
-        responsesInput.verticalScrollerVisibility = ScrollerVisibility.Auto;
+        // responsesInput.verticalScrollerVisibility = ScrollerVisibility.Auto;
         responsesInput.style.whiteSpace = WhiteSpace.Normal;
 
         // Attach listeners
@@ -66,97 +70,6 @@ public class BeamUI : MonoBehaviour
         revokeSessionButton.clicked += async () => await OnRevokeSessionClicked();
         signOperationButton.clicked += async () => await OnSignOperationClicked();
         checkHealthButton.clicked += async () => await OnCheckHealthClicked();
-
-        if (USE_WEB_VIEW)
-        {
-            m_webViewObject = new GameObject("WebViewObject").AddComponent<WebViewObject>();
-            m_webViewObject.canvas = GameObject.Find("Canvas");
-
-            // if true, WebView will open in new window and allow Inspecting
-            var separated = false;
-
-            // Source: https://github.com/gree/unity-webview/blob/master/sample/Assets/Scripts/SampleWebView.cs
-            m_webViewObject.Init(separated: separated, cb: (msg) =>
-            {
-                Debug.Log(string.Format("CallFromJS[{0}]", msg));
-            },
-            err: (msg) =>
-            {
-                Debug.Log(string.Format("CallOnError[{0}]", msg));
-            },
-            httpErr: (msg) =>
-            {
-                Debug.Log(string.Format("CallOnHttpError[{0}]", msg));
-            },
-            started: (msg) =>
-            {
-                Debug.Log(string.Format("CallOnStarted[{0}]", msg));
-            },
-            hooked: (msg) =>
-            {
-                Debug.Log(string.Format("CallOnHooked[{0}]", msg));
-            },
-            cookies: (msg) =>
-            {
-                Debug.Log(string.Format("CallOnCookies[{0}]", msg));
-            },
-            ld: (msg) =>
-            {
-                Debug.Log(string.Format("CallOnLoaded[{0}]", msg));
-
-                m_webViewObject.SetMargins(0, 0, 0, 0);   
-                m_webViewObject.SetVisibility(true);
-
-#if UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX || UNITY_IOS
-                // NOTE: the following js definition is required only for UIWebView; if
-                // enabledWKWebView is true and runtime has WKWebView, Unity.call is defined
-                // directly by the native plugin.
-#if true
-                var js = @"
-                    if (!(window.webkit && window.webkit.messageHandlers)) {
-                        window.Unity = {
-                            call: function(msg) {
-                                window.location = 'unity:' + msg;
-                            }
-                        };
-                    }
-                ";
-#else
-                // NOTE: depending on the situation, you might prefer this 'iframe' approach.
-                // cf. https://github.com/gree/unity-webview/issues/189
-                var js = @"
-                    if (!(window.webkit && window.webkit.messageHandlers)) {
-                        window.Unity = {
-                            call: function(msg) {
-                                var iframe = document.createElement('IFRAME');
-                                iframe.setAttribute('src', 'unity:' + msg);
-                                document.documentElement.appendChild(iframe);
-                                iframe.parentNode.removeChild(iframe);
-                                iframe = null;
-                            }
-                        };
-                    }
-                ";
-#endif
-#elif UNITY_WEBPLAYER || UNITY_WEBGL
-                var js = @"
-                    window.Unity = {
-                        call:function(msg) {
-                            parent.unityWebView.sendMessage('WebViewObject', msg);
-                        }
-                    };
-                ";
-#else
-                var js = "";
-#endif
-                m_webViewObject.EvaluateJS(js + @"Unity.call('ua=' + navigator.userAgent)");
-            });
-
-            m_webViewObject.SetMargins(0, 0, 0, Screen.height);   
-            m_webViewObject.SetVisibility(true);
-
-            beamClient.SetUrlOpener(url => { InitWebview(url); });
-        }
     }
 
     private void OnDisable()
@@ -176,7 +89,7 @@ public class BeamUI : MonoBehaviour
         var entityId = GetEntityIdInputValue();
 
         var result = await beamClient.ConnectUserToGameAsync(entityId);
-        DisposeOfWebView();
+        CloseWebViewIfPossible();
         if (result.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -184,6 +97,10 @@ public class BeamUI : MonoBehaviour
 
             var user = await beamClient.UsersApi.GetUserAsync(entityId);
             AppendToResponseInput($"User's wallet address: {user.Wallets.First(w => w.ChainId == 13337)?.Address}");
+        }
+        else
+        {
+            AppendToResponseInput($"Received error: {result.Error}");
         }
     }
 
@@ -201,7 +118,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var newSession = await beamClient.CreateSessionAsync(entityId);
-        DisposeOfWebView();
+        CloseWebViewIfPossible();
         if (newSession.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -225,7 +142,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var revokeResult = await beamClient.RevokeSessionAsync(entityId, existingSession.Result.SessionAddress);
-        DisposeOfWebView();
+        CloseWebViewIfPossible();
         if (revokeResult.Status == BeamResultType.Success)
         {
             AppendToResponseInput("Session revoked.");
@@ -248,7 +165,7 @@ public class BeamUI : MonoBehaviour
 
         var entityId = GetEntityIdInputValue();
         var signingResult = await beamClient.SignOperationAsync(entityId, operationId);
-        DisposeOfWebView();
+        CloseWebViewIfPossible();
         if (signingResult.Status == BeamResultType.Success)
         {
             AppendToResponseInput($"Operation signed: {signingResult.Result}.");
@@ -291,20 +208,28 @@ public class BeamUI : MonoBehaviour
         responsesInput.MarkDirtyRepaint(); // Refresh UI to reflect changes
     }
 
-    private void InitWebview(string url)
+    private void OpenWebView(string url)
     {
-        // separated for now to be able to see console/network requests
-        m_webViewObject.LoadURL(url);
-        m_webViewObject.SetMargins(0, 0, 0, 0);   
-        m_webViewObject.SetVisibility(true);
+#if UNITY_IOS
+        // opens via Safari View Controller, so that we can automatically close it, use PasswordManagers etc.
+        SFSafariViewController.LaunchUrl(url);
+#else
+        // will open external Web Browser application if possible, using default Unity behaviour
+        Application.OpenURL(url);
+#endif
+        // todo: Android
     }
 
-    private void DisposeOfWebView()
+    private void CloseWebViewIfPossible()
     {
         if (USE_WEB_VIEW)
         {
-            m_webViewObject.SetMargins(0, 0, 0, Screen.height);   
-            m_webViewObject.SetVisibility(false);
+#if UNITY_IOS
+            SFSafariViewController.Dismiss();
+#else
+        // ignore, can't close external application
+#endif
+            // todo: Android
         }
     }
 }

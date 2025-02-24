@@ -1,5 +1,4 @@
 .responses-input {
-    height: 200px;
     color: rgb(241, 241, 241);
 }
 
