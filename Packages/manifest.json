@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "beam.sdk.client": "https://github.com/BuildOnBeam/beam-sdk-unity.git",
+    "beam.sdk.client": "file:/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.google.external-dependency-manager": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm",
     "com.onedevapp.chromecustomtab": "https://github.com/onedevapp/Unity_ChromeCustomTabs.git#1.1.1",
@@ -8,6 +8,7 @@
     "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.34",
     "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.mobile.android-logcat": "1.4.4",
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.test-framework": "1.4.6",
     "com.unity.timeline": "1.8.8",
