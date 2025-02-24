@@ -4,13 +4,17 @@ using Beam.Models;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Cysharp.Threading.Tasks;
+using OneDevApp.CustomTabPlugin;
+using Unity.VisualScripting;
+
+#if UNITY_IOS
 using Plugins.ios;
+#endif
 
 public class BeamUI : MonoBehaviour
 {
     // set your Publishable(!) API key
     [SerializeField] private string BEAM_API_KEY;
-    [SerializeField] private bool USE_WEB_VIEW;
 
     private BeamClient beamClient;
 
@@ -27,6 +31,8 @@ public class BeamUI : MonoBehaviour
     private TextField operationIdInput;
     private TextField responsesInput;
 
+    private ChromeCustomTab openedChromeCustomTab;
+
     private void OnEnable()
     {
         beamClient = gameObject.AddComponent<BeamClient>()
@@ -34,10 +40,7 @@ public class BeamUI : MonoBehaviour
             .SetEnvironment(BeamEnvironment.Testnet)
             .SetDebugLogging(true);
 
-        if (USE_WEB_VIEW)
-        {
-            beamClient.SetUrlOpener(url => OpenWebView(url));
-        }
+        beamClient.SetUrlOpener(url => OpenWebView(url));
 
         // Clone and attach the UXML template
         var uiDocument = GetComponent<UIDocument>();
@@ -210,26 +213,26 @@ public class BeamUI : MonoBehaviour
 
     private void OpenWebView(string url)
     {
-#if UNITY_IOS
+#if UNITY_IOS && !UNITY_EDITOR
         // opens via Safari View Controller, so that we can automatically close it, use PasswordManagers etc.
         SFSafariViewController.LaunchUrl(url);
+#elif UNITY_ANDROID && !UNITY_EDITOR
+        // opens via Chrome Custom Tab, similar to Safari View Controller on iOS
+        openedChromeCustomTab = gameObject.AddComponent<ChromeCustomTab>();
+        openedChromeCustomTab.OpenCustomTab(url, "#000000", "#000000");
 #else
         // will open external Web Browser application if possible, using default Unity behaviour
         Application.OpenURL(url);
 #endif
-        // todo: Android
     }
 
     private void CloseWebViewIfPossible()
     {
-        if (USE_WEB_VIEW)
-        {
 #if UNITY_IOS
             SFSafariViewController.Dismiss();
-#else
-        // ignore, can't close external application
+#elif UNITY_ANDROID
+        // ignore, can't close Chrome Custom Tab, but it should call window.close() on its own
 #endif
-            // todo: Android
-        }
+        // ignore, can't close external application
     }
 }

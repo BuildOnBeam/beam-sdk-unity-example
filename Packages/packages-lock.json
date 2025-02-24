@@ -17,6 +17,20 @@
       "dependencies": {},
       "hash": "8042b29ff87dd5506d7aad72bd6d8d7405985f27"
     },
+    "com.google.external-dependency-manager": {
+      "version": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8cf54b63e37dceaf1630135f9abddf08167500a1"
+    },
+    "com.onedevapp.chromecustomtab": {
+      "version": "https://github.com/onedevapp/Unity_ChromeCustomTabs.git#1.1.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "22b968d43cb23ab20e64f36ed428cd761fd30d9a"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
@@ -258,13 +272,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "net.gree.unity-webview": {
-      "version": "https://github.com/gree/unity-webview.git?path=/dist/package",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "b1ee99f6dc91fbc36309839bc654c46edec622db"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
