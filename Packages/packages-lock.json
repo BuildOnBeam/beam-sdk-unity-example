@@ -1,14 +1,13 @@
 {
   "dependencies": {
     "beam.sdk.client": {
-      "version": "https://github.com/BuildOnBeam/beam-sdk-unity.git",
+      "version": "file:/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.4"
-      },
-      "hash": "4142f24d5e8a1fbb3067e0991bd4d9e332b5d7eb"
+        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.10"
+      }
     },
     "com.cysharp.unitask": {
       "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
@@ -16,20 +15,6 @@
       "source": "git",
       "dependencies": {},
       "hash": "8042b29ff87dd5506d7aad72bd6d8d7405985f27"
-    },
-    "com.google.external-dependency-manager": {
-      "version": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "8cf54b63e37dceaf1630135f9abddf08167500a1"
-    },
-    "com.onedevapp.chromecustomtab": {
-      "version": "https://github.com/onedevapp/Unity_ChromeCustomTabs.git#1.1.1",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "22b968d43cb23ab20e64f36ed428cd761fd30d9a"
     },
     "com.unity.2d.animation": {
       "version": "10.1.4",

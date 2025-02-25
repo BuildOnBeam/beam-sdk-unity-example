@@ -1,9 +1,7 @@
 {
   "dependencies": {
-    "beam.sdk.client": "https://github.com/BuildOnBeam/beam-sdk-unity.git",
+    "beam.sdk.client": "file:/Users/maciejlewinski/Documents/Unity/Beam.SDK.Client",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-    "com.google.external-dependency-manager": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm",
-    "com.onedevapp.chromecustomtab": "https://github.com/onedevapp/Unity_ChromeCustomTabs.git#1.1.1",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.34",

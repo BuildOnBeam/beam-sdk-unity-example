@@ -4,12 +4,6 @@ using Beam.Models;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Cysharp.Threading.Tasks;
-using OneDevApp.CustomTabPlugin;
-using Unity.VisualScripting;
-
-#if UNITY_IOS
-using Plugins.ios;
-#endif
 
 public class BeamUI : MonoBehaviour
 {
@@ -31,16 +25,12 @@ public class BeamUI : MonoBehaviour
     private TextField operationIdInput;
     private TextField responsesInput;
 
-    private ChromeCustomTab openedChromeCustomTab;
-
     private void OnEnable()
     {
         beamClient = gameObject.AddComponent<BeamClient>()
             .SetBeamApiKey(BEAM_API_KEY)
             .SetEnvironment(BeamEnvironment.Testnet)
             .SetDebugLogging(true);
-
-        beamClient.SetUrlOpener(url => OpenWebView(url));
 
         // Clone and attach the UXML template
         var uiDocument = GetComponent<UIDocument>();
@@ -64,7 +54,7 @@ public class BeamUI : MonoBehaviour
         responsesInput = rootElement.Q<TextField>("ResponsesInput");
 
         responsesInput.multiline = true;
-        // responsesInput.verticalScrollerVisibility = ScrollerVisibility.Auto;
+        responsesInput.verticalScrollerVisibility = ScrollerVisibility.Auto;
         responsesInput.style.whiteSpace = WhiteSpace.Normal;
 
         // Attach listeners
@@ -92,7 +82,7 @@ public class BeamUI : MonoBehaviour
         var entityId = GetEntityIdInputValue();
 
         var result = await beamClient.ConnectUserToGameAsync(entityId);
-        CloseWebViewIfPossible();
+
         if (result.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -121,7 +111,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var newSession = await beamClient.CreateSessionAsync(entityId);
-        CloseWebViewIfPossible();
+
         if (newSession.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
@@ -145,7 +135,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var revokeResult = await beamClient.RevokeSessionAsync(entityId, existingSession.Result.SessionAddress);
-        CloseWebViewIfPossible();
+
         if (revokeResult.Status == BeamResultType.Success)
         {
             AppendToResponseInput("Session revoked.");
@@ -168,7 +158,7 @@ public class BeamUI : MonoBehaviour
 
         var entityId = GetEntityIdInputValue();
         var signingResult = await beamClient.SignOperationAsync(entityId, operationId);
-        CloseWebViewIfPossible();
+
         if (signingResult.Status == BeamResultType.Success)
         {
             AppendToResponseInput($"Operation signed: {signingResult.Result}.");
@@ -209,30 +199,5 @@ public class BeamUI : MonoBehaviour
 
         responsesInput.value += text + "\n";
         responsesInput.MarkDirtyRepaint(); // Refresh UI to reflect changes
-    }
-
-    private void OpenWebView(string url)
-    {
-#if UNITY_IOS && !UNITY_EDITOR
-        // opens via Safari View Controller, so that we can automatically close it, use PasswordManagers etc.
-        SFSafariViewController.LaunchUrl(url);
-#elif UNITY_ANDROID && !UNITY_EDITOR
-        // opens via Chrome Custom Tab, similar to Safari View Controller on iOS
-        openedChromeCustomTab = gameObject.AddComponent<ChromeCustomTab>();
-        openedChromeCustomTab.OpenCustomTab(url, "#000000", "#000000");
-#else
-        // will open external Web Browser application if possible, using default Unity behaviour
-        Application.OpenURL(url);
-#endif
-    }
-
-    private void CloseWebViewIfPossible()
-    {
-#if UNITY_IOS
-            SFSafariViewController.Dismiss();
-#elif UNITY_ANDROID
-        // ignore, can't close Chrome Custom Tab, but it should call window.close() on its own
-#endif
-        // ignore, can't close external application
     }
 }
