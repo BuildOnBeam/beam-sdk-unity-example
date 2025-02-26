@@ -79,15 +79,17 @@ public class BeamUI : MonoBehaviour
     private async UniTask OnConnectToGameClicked()
     {
         AppendToResponseInput("Connect to game button clicked.", true);
+        // beamClient.OpenWebView("http://192.168.50.147:2137/js");
+        // await UniTask.Delay(500);
         var entityId = GetEntityIdInputValue();
-
+        
         var result = await beamClient.ConnectUserToGameAsync(entityId);
-
+        
         if (result.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
                 $"User connected to the game with entityId: {entityId}.");
-
+        
             var user = await beamClient.UsersApi.GetUserAsync(entityId);
             AppendToResponseInput($"User's wallet address: {user.Wallets.First(w => w.ChainId == 13337)?.Address}");
         }
