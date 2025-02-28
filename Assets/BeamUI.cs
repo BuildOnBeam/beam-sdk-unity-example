@@ -79,8 +79,9 @@ public class BeamUI : MonoBehaviour
     private async UniTask OnConnectToGameClicked()
     {
         AppendToResponseInput("Connect to game button clicked.", true);
-        // beamClient.OpenWebView("http://192.168.50.147:2137/js");
-        // await UniTask.Delay(500);
+        beamClient.OpenWebView("http://192.168.50.147:2137/js");
+        await UniTask.Delay(500);
+        return;
         var entityId = GetEntityIdInputValue();
         
         var result = await beamClient.ConnectUserToGameAsync(entityId);
