@@ -5,8 +5,8 @@ apply from: '../shared/keepUnitySymbols.gradle'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'androidx.browser:browser:1.5.0' // Packages/com.onedevapp.chromecustomtab/Plugins/ChromeCustomTab/Editor/ChromeCustomTabDependencies.xml:3
-    implementation 'androidx.fragment:fragment:1.5.7' // Packages/com.onedevapp.chromecustomtab/Plugins/ChromeCustomTab/Editor/ChromeCustomTabDependencies.xml:4
+    implementation 'androidx.browser:browser:1.5.0' // Packages/beam.sdk.client/Assets/Plugins/ChromeCustomTab/Editor/ChromeCustomTabDependencies.xml:3
+    implementation 'androidx.fragment:fragment:1.5.7' // Packages/beam.sdk.client/Assets/Plugins/ChromeCustomTab/Editor/ChromeCustomTabDependencies.xml:4
 // Android Resolver Dependencies End
 **DEPS**}
 
