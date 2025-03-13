@@ -1,0 +1,7 @@
+-dontwarn com.onbeam.**
+-keep class com.onbeam.** { *; }
+-keep interface com.onbeam.** { *; }
+
+-dontwarn androidx.**
+-keep class androidx.** { *; }
+-keep interface androidx.** { *; }
