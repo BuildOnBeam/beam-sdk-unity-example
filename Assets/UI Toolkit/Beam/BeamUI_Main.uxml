@@ -1,20 +1,20 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/Beam/BeamUI_Main.uss?fileID=7433441132597879392&amp;guid=1ebc3d6b3546143e1a1de9dc5ce2181f&amp;type=3#BeamUI_Main" />
-    <ui:VisualElement name="Container" style="margin-top: 50px; margin-bottom: 50px; margin-right: 10px; margin-left: 10px;">
+    <Style src="project://database/Assets/UI%20Toolkit/Beam/BeamUI_Main_Vertical.uss?fileID=7433441132597879392&amp;guid=36dadd304d09c48ad959fdc06a4fc001&amp;type=3#BeamUI_Main_Vertical" />
+    <ui:VisualElement name="Container" class="container">
         <ui:VisualElement name="Header" style="flex-grow: 1; height: 30px; max-height: 30px; width: 100%;">
-            <ui:VisualElement name="BeamLogo" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/beam-logo.png?fileID=21300000&amp;guid=f5b435436de9247a4ad30febb228564d&amp;type=3#beam-logo&quot;); width: 100%; height: 30px; align-self: flex-start; -unity-background-scale-mode: scale-to-fit; max-height: 30px;" />
+            <ui:VisualElement name="BeamLogo" class="beam-logo" />
         </ui:VisualElement>
-        <ui:VisualElement name="TopRightPanel" style="width: auto; align-items: auto; align-self: center; position: relative; right: 5px; top: 5px;">
+        <ui:VisualElement name="InputPanel" class="input-panel">
             <ui:TextField picking-mode="Ignore" label="Entity Id" name="EntityIdInput" class="beam-input-small" style="width: 300px;" />
             <ui:TextField picking-mode="Ignore" label="Operation Id" name="OperationIdInput" class="beam-input-small" style="width: 300px;" />
         </ui:VisualElement>
-        <ui:VisualElement name="TopLeftPanel" style="flex-grow: 1; width: auto; height: auto; position: relative; align-self: center; align-items: flex-start; justify-content: flex-start;">
+        <ui:VisualElement name="ButtonPanel" class="button-panel">
             <ui:Button text="Connect to game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ConnectToGameButton" />
             <ui:Button text="Create Session" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateSessionButton" />
             <ui:Button text="Revoke Session" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RevokeSessionButton" />
             <ui:Button text="Sign Operation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SignOperationButton" />
             <ui:Button text="Check Health" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CheckHealthButton" />
         </ui:VisualElement>
-        <ui:TextField picking-mode="Ignore" name="ResponsesInput" readonly="true" multiline="false" vertical-scroller-visibility="Auto" class="responses-input" style="height: 300px; max-height: 300px; width: 90%; align-self: center; min-height: 300px;" />
+        <ui:TextField picking-mode="Ignore" name="ResponsesInput" readonly="true" multiline="false" vertical-scroller-visibility="Auto" class="responses-input" />
     </ui:VisualElement>
 </ui:UXML>

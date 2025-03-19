@@ -10,6 +10,12 @@ public class BeamUI : MonoBehaviour
     // set your Publishable(!) API key
     [SerializeField] private string BEAM_API_KEY;
 
+    [SerializeField]
+    private StyleSheet horizontalStyleSheet;
+    
+    [SerializeField]
+    private StyleSheet verticalStyleSheet;
+    
     private BeamClient beamClient;
 
     private VisualElement rootElement;
@@ -52,6 +58,17 @@ public class BeamUI : MonoBehaviour
         entityIdInput = rootElement.Q<TextField>("EntityIdInput");
         operationIdInput = rootElement.Q<TextField>("OperationIdInput");
         responsesInput = rootElement.Q<TextField>("ResponsesInput");
+
+        // set different .uss depending on orientation so that we can fit all inputs and responses on one screen
+        rootElement.styleSheets.Clear();
+        if (Screen.orientation == ScreenOrientation.Portrait || Screen.orientation == ScreenOrientation.PortraitUpsideDown)
+        {
+            rootElement.styleSheets.Add(verticalStyleSheet);
+        }
+        else
+        {
+            rootElement.styleSheets.Add(horizontalStyleSheet);
+        }
 
         responsesInput.multiline = true;
         responsesInput.verticalScrollerVisibility = ScrollerVisibility.Auto;

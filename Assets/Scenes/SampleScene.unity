@@ -155,7 +155,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.07450981, g: 0.07450981, b: 0.07450981, a: 0}
+  m_BackGroundColor: {r: 0.2285066, g: 0.6132076, b: 0.46421507, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -281,6 +281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BEAM_API_KEY: yourApiKey
+  horizontalStyleSheet: {fileID: 7433441132597879392, guid: 1ebc3d6b3546143e1a1de9dc5ce2181f, type: 3}
+  verticalStyleSheet: {fileID: 7433441132597879392, guid: 36dadd304d09c48ad959fdc06a4fc001, type: 3}
 --- !u!114 &708354633
 MonoBehaviour:
   m_ObjectHideFlags: 0
