@@ -98,14 +98,14 @@ public class BeamUI : MonoBehaviour
         AppendToResponseInput("Connect to game button clicked.", true);
         var entityId = GetEntityIdInputValue();
         
-        var result = await beamClient.ConnectUserToGameAsync(entityId);
+        var result = await beamClient.ConnectUserToGameAsyncV2(entityId);
         
         if (result.Status == BeamResultType.Success)
         {
             AppendToResponseInput(
                 $"User connected to the game with entityId: {entityId}.");
         
-            var user = await beamClient.UsersApi.GetUserAsync(entityId);
+            var user = await beamClient.UsersApi.GetUserAsync(result.Result.EntityId);
             AppendToResponseInput($"User's wallet address: {user.Wallets.First(w => w.ChainId == 13337)?.Address}");
         }
         else
@@ -119,12 +119,15 @@ public class BeamUI : MonoBehaviour
         AppendToResponseInput("Create Session button clicked.", true);
         var entityId = GetEntityIdInputValue();
 
-        var existingSession = await beamClient.GetActiveSessionAsync(entityId);
-        if (existingSession.Status == BeamResultType.Success)
+        if (!string.IsNullOrWhiteSpace(entityId))
         {
-            AppendToResponseInput(
-                $"Active session already exists: {existingSession.Result.SessionAddress} until {existingSession.Result.EndTime.ToString()}.");
-            return;
+            var existingSession = await beamClient.GetActiveSessionAsync(entityId);
+            if (existingSession.Status == BeamResultType.Success)
+            {
+                AppendToResponseInput(
+                    $"Active session already exists: {existingSession.Result.SessionAddress} until {existingSession.Result.EndTime.ToString()}.");
+                return;
+            }
         }
 
         var newSession = await beamClient.CreateSessionAsync(entityId);
