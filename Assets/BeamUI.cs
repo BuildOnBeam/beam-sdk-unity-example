@@ -9,6 +9,7 @@ public class BeamUI : MonoBehaviour
 {
     // set your Publishable(!) API key
     [SerializeField] private string BEAM_API_KEY;
+    [SerializeField] private int BEAM_CHAIN_ID = 13337;
 
     [SerializeField]
     private StyleSheet horizontalStyleSheet;
@@ -35,7 +36,7 @@ public class BeamUI : MonoBehaviour
     {
         beamClient = gameObject.AddComponent<BeamClient>()
             .SetBeamApiKey(BEAM_API_KEY)
-            .SetEnvironment(BeamEnvironment.Testnet)
+            .SetEnvironment(BeamEnvironment.Beta)
             .SetDebugLogging(true);
 
         // Clone and attach the UXML template
@@ -98,7 +99,7 @@ public class BeamUI : MonoBehaviour
         AppendToResponseInput("Connect to game button clicked.", true);
         var entityId = GetEntityIdInputValue();
         
-        var result = await beamClient.ConnectUserToGameAsyncV2(entityId);
+        var result = await beamClient.ConnectUserToGameAsyncV2(entityId, BEAM_CHAIN_ID);
         
         if (result.Status == BeamResultType.Success)
         {
@@ -121,7 +122,7 @@ public class BeamUI : MonoBehaviour
 
         if (!string.IsNullOrWhiteSpace(entityId))
         {
-            var existingSession = await beamClient.GetActiveSessionAsync(entityId);
+            var existingSession = await beamClient.GetActiveSessionAsync(entityId, BEAM_CHAIN_ID);
             if (existingSession.Status == BeamResultType.Success)
             {
                 AppendToResponseInput(
@@ -130,7 +131,7 @@ public class BeamUI : MonoBehaviour
             }
         }
 
-        var newSession = await beamClient.CreateSessionAsync(entityId);
+        var newSession = await beamClient.CreateSessionAsync(entityId, chainId: BEAM_CHAIN_ID);
 
         if (newSession.Status == BeamResultType.Success)
         {
@@ -147,7 +148,7 @@ public class BeamUI : MonoBehaviour
     {
         AppendToResponseInput("Revoke Session button clicked.", true);
         var entityId = GetEntityIdInputValue();
-        var existingSession = await beamClient.GetActiveSessionAsync(entityId);
+        var existingSession = await beamClient.GetActiveSessionAsync(entityId, BEAM_CHAIN_ID);
         if (existingSession.Status != BeamResultType.Success)
         {
             AppendToResponseInput("No active session.");
@@ -177,7 +178,7 @@ public class BeamUI : MonoBehaviour
         }
 
         var entityId = GetEntityIdInputValue();
-        var signingResult = await beamClient.SignOperationAsync(entityId, operationId);
+        var signingResult = await beamClient.SignOperationAsync(entityId, operationId, BEAM_CHAIN_ID);
 
         if (signingResult.Status == BeamResultType.Success)
         {

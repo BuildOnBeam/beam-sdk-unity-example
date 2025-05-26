@@ -281,6 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BEAM_API_KEY: yourApiKey
+  BEAM_CHAIN_ID: 13337
   horizontalStyleSheet: {fileID: 7433441132597879392, guid: 1ebc3d6b3546143e1a1de9dc5ce2181f, type: 3}
   verticalStyleSheet: {fileID: 7433441132597879392, guid: 36dadd304d09c48ad959fdc06a4fc001, type: 3}
 --- !u!114 &708354633
